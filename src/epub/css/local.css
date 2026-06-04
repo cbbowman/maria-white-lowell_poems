@@ -39,3 +39,15 @@ p span.i2{
 	text-indent: -1em;
 }
 /* End poetry */
+
+/* Footers */
+footer{
+	margin-top: 1em;
+	text-align: right;
+}
+
+[epub|type~="z3998:poem"] footer p{
+	font-style: italic;
+	text-align: right;
+}
+/* End footers */
