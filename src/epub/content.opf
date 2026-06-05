@@ -30,52 +30,44 @@
 		<meta property="schema:accessibilitySummary">This publication conforms to WCAG 2.2 Level AA.</meta>
 		<dc:title id="title">Poetry</dc:title>
 		<meta property="file-as" refines="#title">Poetry</meta>
-		<dc:subject id="subject-1">SUBJECT_1</dc:subject>
-		<dc:subject id="subject-2">SUBJECT_2</dc:subject>
+		<meta property="se:is-a-collection">true</meta>
+		<dc:subject id="subject-1">American poetry -- 19th century</dc:subject>
 		<meta property="authority" refines="#subject-1">LCSH</meta>
-		<meta property="term" refines="#subject-1">SUBJECT_1_LCSH_ID</meta>
-		<meta property="authority" refines="#subject-2">LCSH</meta>
-		<meta property="term" refines="#subject-2">SUBJECT_2_LCSH_ID</meta>
-		<meta property="schema:genre">TAG</meta>
-		<dc:description id="description">DESCRIPTION</dc:description>
+		<meta property="term" refines="#subject-1">sh85004386</meta>
+		<meta property="schema:genre">Poetry</meta>
+		<meta property="schema:additionalType">http://schema.org/Collection</meta>
+		<dc:description id="description">A collection of poetry by abolitionist Maria Lowell, published posthumously.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
-			LONG_DESCRIPTION
+			&lt;p&gt;Throughout her brief life, &lt;a href="https://standardebooks.org/ebooks/maria-white-lowell"&gt;Maria White Lowell&lt;/a&gt; was a steady partner to her husband, poet James Russell Lowell, and a dedicated advocate for abolition. But their happy marriage was shadowed by profound grief—of their four children, only one survived infancy. When Maria died of tuberculosis at just thirty-two, her devastated husband privately published this collection of her poetry to preserve her memory.&lt;/p&gt;
+			&lt;p&gt;Rooted in both her firm moral convictions and deep personal sorrows, the resulting volume captures a passionate, distinct voice. Faced with the loss of her infant daughter, Lowell pours her grief into “The Morning-Glory.” Drawing a delicate parallel between her child and the brief, bright bloom of the titular flower, she reflects on a life that withered almost before it had begun. Rather than retreating into abstract mourning, she grounds her poetry in the physical reality of her sorrow, capturing a mother’s heartbreak with striking, unflinching clarity.&lt;/p&gt;
 		</meta>
-		<dc:language>LANG</dc:language>
-		<dc:source>TRANSCRIPTION_URL</dc:source>
-		<dc:source>PAGE_SCANS_URL</dc:source>
+		<dc:language>en-US</dc:language>
+		<dc:source>https://search.lib.virginia.edu/sources/uva_library/items/uva-lib:439721</dc:source>
+		<dc:source>https://archive.org/details/poemsofmarialowe00lowerich</dc:source>
 		<meta property="schema:wordCount">WORD_COUNT</meta>
 		<meta property="schema:educationalLevel">READING_EASE</meta>
-		<link href="EBOOK_WIKI_URL" rel="schema:sameAs"/>
 		<meta id="vcs-repository" property="schema:workExample">schema:workExample</meta>
 		<meta property="rdf:type" refines="#vcs-repository">http://schema.org/SoftwareSourceCode</meta>
 		<link href="https://github.com/standardebooks/maria-lowell_poetry" refines="#vcs-repository" rel="schema:codeRepository"/>
 		<dc:creator id="author">Maria Lowell</dc:creator>
 		<meta property="file-as" refines="#author">Lowell, Maria</meta>
-		<meta property="schema:alternateName" refines="#author">CONTRIBUTOR_FULL_NAME</meta>
-		<link href="CONTRIBUTOR_WIKI_URL" refines="#author" rel="schema:sameAs"/>
-		<link href="CONTRIBUTOR_NACOAF_URI" refines="#author" rel="schema:sameAs"/>
+		<meta property="schema:alternateName" refines="#author">Maria White Lowell</meta>
+		<link href="https://en.wikipedia.org/wiki/Maria_White_Lowell" refines="#author" rel="schema:sameAs"/>
+		<link href="https://id.loc.gov/authorities/names/n86811147.html" refines="#author" rel="schema:sameAs"/>
+		<meta property="role" refines="#author" scheme="marc:relators">ann</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
-		<dc:contributor id="artist">COVER_ARTIST_NAME</dc:contributor>
-		<meta property="file-as" refines="#artist">COVER_ARTIST_SORT</meta>
-		<link href="COVER_ARTIST_WIKI_URL" refines="#artist" rel="schema:sameAs"/>
-		<link href="COVER_ARTIST_NACOAF_URI" refines="#artist" rel="schema:sameAs"/>
+		<dc:contributor id="artist">Domenico Fetti</dc:contributor>
+		<meta property="file-as" refines="#artist">Fetti, Domenico</meta>
+		<link href="https://en.wikipedia.org/wiki/Domenico_Fetti" refines="#artist" rel="schema:sameAs"/>
+		<link href="https://id.loc.gov/authorities/names/nr91043037.html" refines="#artist" rel="schema:sameAs"/>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
-		<dc:contributor id="transcriber-1">TRANSCRIBER_1_NAME</dc:contributor>
-		<meta property="file-as" refines="#transcriber-1">TRANSCRIBER_1_SORT</meta>
-		<link href="TRANSCRIBER_1_URL" refines="#transcriber-1" rel="schema:url"/>
-		<meta property="role" refines="#transcriber-1" scheme="marc:relators">trc</meta>
-		<dc:contributor id="transcriber-2">TRANSCRIBER_2_NAME</dc:contributor>
-		<meta property="file-as" refines="#transcriber-2">TRANSCRIBER_2_SORT</meta>
-		<link href="TRANSCRIBER_2_URL" refines="#transcriber-2" rel="schema:url"/>
-		<meta property="role" refines="#transcriber-2" scheme="marc:relators">trc</meta>
-		<dc:contributor id="transcriber-3">Distributed Proofreaders</dc:contributor>
-		<meta property="file-as" refines="#transcriber-3">Distributed Proofreaders</meta>
-		<link href="https://www.pgdp.net/" refines="#transcriber-3" rel="schema:url"/>
-		<meta property="role" refines="#transcriber-3" scheme="marc:relators">trc</meta>
-		<dc:contributor id="producer-1">PRODUCER_NAME</dc:contributor>
-		<meta property="file-as" refines="#producer-1">PRODUCER_SORT</meta>
-		<link href="PRODUCER_URL" refines="#producer-1" rel="schema:url"/>
+		<dc:contributor id="transcriber">The University of Virginia</dc:contributor>
+		<meta property="file-as" refines="#transcriber">University of Virginia, The</meta>
+		<link href="https://library.virginia.edu/" refines="#transcriber" rel="schema:url"/>
+		<meta property="role" refines="#transcriber" scheme="marc:relators">trc</meta>
+		<dc:contributor id="producer-1">C. B. Bowman</dc:contributor>
+		<meta property="file-as" refines="#producer-1">Bowman, C. B.</meta>
+		<link href="https://github.com/cbbowman" refines="#producer-1" rel="schema:url"/>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">bkp</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">blw</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">cov</meta>
