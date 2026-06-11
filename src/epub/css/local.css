@@ -51,3 +51,13 @@ footer{
 	text-align: right;
 }
 /* End footers */
+
+/* Introductory notes */
+[epub|type~="z3998:introductory-note"]{
+	display: inline-block;
+	font-style: italic;
+	max-width: 60%;
+	text-align: justify;
+	text-indent: 0;
+}
+/* End introductory notes */
